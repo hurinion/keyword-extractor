@@ -1,2 +1,3 @@
-# rake-webscrapper
-Keyword extractor using the Rapid Automatic Keyword Extraction (RAKE) algorithm in Natural Language Processing (NLP).   
+# RAKE
+
+The Rapid Automatic Keyword Extraction (RAKE) is an unsupervised, domain-independent, and language-independent method for extracting keywords from individual documents.
