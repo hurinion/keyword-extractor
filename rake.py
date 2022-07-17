@@ -8,7 +8,7 @@ def retrieve_file(filename_stopword:str) -> list:
         stopword_list = [line.rstrip() for line in f]
     return stopword_list
 
-def generate_stopwords(stopword_list:list) -> list:
+def generate_stopwords(stopword_list:list):
     stopword_pattern = [r'\b' + word + r'(?![\w-])' for word in stopword_list]
     return re.compile('(?u)' + '|'.join(stopword_pattern), re.IGNORECASE)
     
@@ -16,23 +16,27 @@ def seperate_to_words(sentence_list:list, stopwords:list) -> list:
     phrase_list = [re.split(stopwords, sentence) for sentence in sentence_list]
     return [string.lower().strip() for phrase in phrase_list for string in phrase if string.strip()]
 
+def score_keywords(keyword_list):
+    unique_keywords = set(keyword_list)
+    return [(word, keyword_list.count(word)) for word in unique_keywords if keyword_list.count(word) > 2]
 
-class rake(object):
 
-    def __init__(self, filename_stopword) -> None:
+
+class keyword_extraction(object):
+
+    def __init__(self, stopword_filename, input_filename) -> None:
         """
-        filename_stopword : str
+        stopword_filename : str
         """
-        self.__stopwords = generate_stopwords(retrieve_file(filename_stopword))
-        self.__text_input = "Look Dave, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over."
+        self.__stopwords = generate_stopwords(retrieve_file(stopword_filename))
+        self.__text_input = ' '.join(retrieve_file(input_filename))
 
     def run(self) -> list:
         sentence_list = seperate_to_sentences(self.__text_input)
         phrase_list = seperate_to_words(sentence_list, self.__stopwords)
-        return phrase_list
-        
-obj = rake('stop_words_english.txt')
+        return sorted(score_keywords(phrase_list), key=lambda x: -x[1])
 
-print(obj.run())
+keywords = keyword_extraction('stop_words_english.txt', 'test.txt')
 
+print(keywords.run())
 
