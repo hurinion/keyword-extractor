@@ -34,9 +34,9 @@ class rake(object):
 
     def score_keywords(self, keyword_list):
         unique_keywords = set(keyword_list)
-        return [(word, keyword_list.count(word)) for word in unique_keywords if keyword_list.count(word) > 2]
+        return [(word, keyword_list.count(word)) for word in unique_keywords if keyword_list.count(word) > 1]
 
-keywords = rake('stop_words_english.txt', 'test.txt')
+keywords = rake('stop_words_english.txt', 'input.txt')
 
 print(keywords.run())
 

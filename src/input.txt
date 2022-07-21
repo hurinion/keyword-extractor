@@ -1,0 +1,35 @@
+As a Developer Advocate Intern at deepset, you will be part of our Developer Advocacy team, and work closely with our open source community to make semantic search with Haystack —  our open source NLP framework— accessible for developers all around the world.
+OUR MISSION
+We are an open source startup that empowers developers to build flexible and powerful semantic search systems to query all types of data using our Haystack framework.
+
+deepset is at the forefront of ​natural ​language ​processing (NLP) and we are on our way to becoming a standard for ​semantic search. Come join our team and ​work with tech experts on real-world cases, in a fast-paced and high-impact environment, and shape the NLP space together with us.
+LIFE AT DEEPSET
+At deepset you will find an environment ​with equal opportunities to grow, share ideas, build relationships, and succeed. We believe every employee is important and generates a direct impact on our team’s success.
+
+We are certified by Flexa® Careers as a flexible employer, and our remote first culture is designed to provide work-life balance, autonomy, and flexibility.
+
+Our daily meetings, the quarterly in person "Re.Base", and the social events allow us to work with great synergy. We would like to invite you to visit our life page to learn more about our culture. ​
+YOUR IMPACT
+Our Haystack community is growing, and with that the spaces and methods with which we want to provide information and support is also evolving. Our developer advocacy goal is to make Haystack and semantic search accessible to people with a wide range of backgrounds. You will take part in projects and tasks to continuously make this goal a reality:
+
+Continuously collaborate with our Haystack open-source engineering team to identify developer needs and make contributions where appropriate
+Identify NLP and Haystack learning paths for community members of various capabilities and work with on demand external content creators to map useful content schedules
+Be involved in events, by choosing the right ones to go to, preparing presentations and participating
+Collaborate in projects to develop new and improve our existent developer platforms e.g.: facilitate the migration of our community to a new platform, and be a part of the development of a new developer platform for Haystack users
+Work in collaboration with the documentation team to improve Haystack usability
+Become one of the go to people for our community :)
+YOUR PROFILE
+You hold a bachelor’s or master’s degree in Software Engineering, Computer Science, or a comparable field of study
+You are available for a 6 months internship (40 hours per week)
+You are a true Open Source enthusiast, and you already contributed to an OSS project
+You have previous experience with Python, Git and Github
+You are willing and able to pick up on new technical concepts and skills
+There is no hard requirement for a deep technical understanding of NLP and semantic search, but a keen interest and willingness to learn is crucial
+If you have a previous internship or professional experience and have previously worked with Javascript, this will also be considered as a big plus ;)
+PERKS
+Remote-first: You can choose to work from home or any other workspace that suits you. 
+Grow: Personal and professional growth is important to us. At deepset you have the chance to develop new skills, to speak at conferences, and our team favorite is the monthly “Hacky Friday”.
+Connect: We have a virtual office, a monthly social budget to reconnect virtually or in person, regular walk and talks with colleagues from other teams, and a flexible travel policy that enables you to meet colleagues in person when needed.
+Re:base: Once every few months we meet in person. We believe it's great to still see each other occasionally in real life. We have good discussions, we do workshops, we brainstorm, we have lunches together, and we have fun. We cover travel expenses for sure.
+Personal time off: If you want to recharge and travel the world - there are 27 days of paid holidays per year.
+
