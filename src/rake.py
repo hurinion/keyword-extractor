@@ -36,7 +36,7 @@ class rake(object):
         unique_keywords = set(keyword_list)
         return [(word, keyword_list.count(word)) for word in unique_keywords if keyword_list.count(word) > 1]
 
-keywords = rake('stop_words_english.txt', 'input.txt')
+keywords = rake('stop_words_english.txt', 'test_input.txt')
 
 print(keywords.run())
 
